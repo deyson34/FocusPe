@@ -1,17 +1,19 @@
 {
-  "name": "mi-sitio-express",
+  "name": "FocusPe",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Deyson34 <deyson.flores@tecsup.edu.pe>",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^5.1.0",
     "mi-sitio-express": "file:"
-  }
+  },
+  "repository": "https://github.com/deyson34/FocusPe.git",
+  "private": false
 }
