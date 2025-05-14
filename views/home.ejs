@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <h1 class="logo">FocusBox</h1>
+    <nav class="nav-links">
+      <a href="/">Inicio</a>
+      <a href="/about">Acerca de</a>
+      <a href="/service">Servicios</a>
+      <a href="/contact">Contacto</a>
+    </nav>
+  </header>
+
+  <main class="home-content">
+    <section class="hero">
+      <h2>Bienvenido a nuestra página</h2>
+      <p>Explora nuestros servicios y descubre cómo podemos ayudarte.</p>
+      <a class="btn" href="/service">Ver servicios</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <%= new Date().getFullYear() %> FocusBox. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

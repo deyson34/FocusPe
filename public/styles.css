@@ -1,0 +1,169 @@
+/* Reset y base */
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  height: 100%;
+}
+
+/* Fondo con figuras geométricas */
+body {
+  
+  background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1)), url('https://www.transparenttextures.com/patterns/asfalt-pattern.png');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+/* Ajusta el contraste del fondo */
+.home-content {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.85); /* Fondo blanco con opacidad */
+  border-radius: 8px; /* Bordes redondeados para hacer que se vea más limpio */
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/* Estilos para el formulario */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  font-weight: bold;
+  color: #1f2937;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 1rem;
+  margin: 0.8rem 0 1.5rem 0;
+  border: 2px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #333;
+  transition: border-color 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+
+.btn {
+  background-color: #2a74db;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+form button {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+form button::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background-color: #1d4ed8;
+  transition: all 0.4s;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+}
+
+form button:hover::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+form button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #1f2937;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.nav-links a:hover {
+  color: #38bdf8;
+}
+
+/* Hero section */
+.hero h2 {
+  font-size: 2.5rem;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #4b5563;
+}
+
+/* Footer */
+.footer {
+  background-color: #1f2937;
+  color: #9ca3af;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}
